@@ -50,7 +50,7 @@ public class Person {
 		return "Person [name=" + name + ", age=" + age + ", location=" + location + ", salary=" + salary + "]";
 	}
 
-	static class Builder {
+	public static class Builder {
 		private String name;
 		private int age;
 		private Location location;
